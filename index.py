@@ -8,3 +8,4 @@ for i in range(len(l2)):
     suml2+=l2[i]
 print(numl2)
    
+
