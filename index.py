@@ -7,5 +7,5 @@ for i in range(len(l2)):
     numl2+=1
     suml2+=l2[i]
 print(numl2)
-   
+print(suml2)
 
