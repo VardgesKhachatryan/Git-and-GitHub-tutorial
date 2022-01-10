@@ -1,14 +1,10 @@
-l1 = [9,5,6,5,11,19]
+l2 = [4,5,2,3,4,5]
 
-maxl1 = l1[0]
-minl1 = l1[0]
-
-for i in range(len(l1)):
-  if l1[i]>=l1[0]:
-    maxl1 = l1[i]
-  if l1[i]<l1[0]:
-    minl1 = l1[i]
-
-print (maxl1)
-print (minl1)
+numl2 = 0
+suml2 = 0
+for i in range(len(l2)):
+  if l2[i] % 2 == 0:
+    numl2+=1
+    suml2+=l2[i]
+print(numl2)
    
